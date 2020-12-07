@@ -82,6 +82,7 @@ try:
     date_path = os.path.join(website_name,now)
     with open(os.path.join(date_path,"data.json"), "w") as outfile:
         json.dump(all_data, outfile)
+        
 except:
     print("There is some issue with script. Contact yugdamor.dev@gmail.com")
     wd.close()
